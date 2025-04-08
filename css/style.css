@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Roboto:wght@400;500&display=swap');
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  color: #66bfbf;
+}
+
+h1{
+    margin-top: 0px;
+    font-family: "Sacramento", cursive;
+    font-size: 5rem;
+    color: #66bfbf;
+}
+
+.section-1 {
+    background-color: #e4f9f5;
+}
+
+.section-2 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.top-container {
+    display: block;
+    text-align: center;
+    
+}
+
+.profile {
+    text-align: center;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.clip-art {
+    height: 150px;
+}
+
+.profile-img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    object-position: center 5%;
+
+}
+
+.intro {
+    width: 40%;
+    margin:auto;
+}
+
+p {
+    line-height: 2;
+}
+
+.full-stack {
+    font-weight: bold;
+}
+  
+.navbar {
+    background-color: #66bfbf;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+  
+  .nav-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #ffffffcc;
+  }
+
+  /* Footer */
+  .footer {
+    background-color: #66bfbf;
+    text-align: center;
+    padding: 2rem 1rem;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 3rem; 
+    margin-bottom: 1rem;
+  }
+  
+  .footer-links a {
+    color: #e4f9f5;
+    text-decoration: underline;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #ffffffcc;
+  }
+  
+  .footer-copy {
+    font-size: 0.7rem;
+  }
+  
